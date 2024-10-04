@@ -1,5 +1,7 @@
 # EXPEDEX Package Delivery System
 
+![Command Line Interface Screenshot](https://github.com/Marvynro1/EXPEDEX-Package-Delivery-Tracker-System/blob/master/CLI-screenshot.png?raw=true)
+
 ## Background
 
 This project is something I built to simulate a **real-world package delivery system** for a logistics operation, specifically designed for supervisors to keep track of overall logistics operations. The idea was to provide an easy way to **monitor trucks, drivers, and package details**—everything from **total mileage** to **delivery times** and **deadlines**.

@@ -1,8 +1,3 @@
-"""
-Name: Marvyn Orellana
-Student ID: 010291805
-"""
-
 import csv
 from hash_table import HashTable
 from truck import Truck
@@ -85,7 +80,7 @@ def main():
     The main function to coordinate package delivery. Here is the overall flow:
     1. Loads data from CSV files.
     2. Dispatches trucks with optimized delivery routes.
-    3. Initializes and starts the command-line interface (CLI).    
+    3. Initializes and starts the command-line interface (CLI).
 
     Time Complexity: O(n^2)
     Space Complexity: O(n^2)

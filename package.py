@@ -53,7 +53,7 @@ class Package:
         input_time = datetime.strptime(input_time, "%H:%M")
         truck_start_time_dt = datetime.strptime(truck_start_time, "%H:%M") if truck_start_time else None
 
-        # WGUPS does not know the correct address for package #9 until 10:20
+        # EXPEDEX does not know the correct address for package #9 until 10:20
         if self.wrong_address_flag and input_time < datetime.strptime("10:20", "%H:%M"):
             # Make address and zip have placeholder values before 10:20
             self.address = "300 State St"

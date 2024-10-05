@@ -1,6 +1,6 @@
 import re
 
-# Represents the CLI for the WGUPS package delivery system.
+# Represents the CLI for the EXPEDEX package delivery system.
 class CLI:
     def __init__(self, trucks, package_table, distance_manager):
         """
@@ -42,7 +42,7 @@ class CLI:
 
         total_miles = sum(truck.total_miles for truck in self.trucks)
         print("*************************************")
-        print("LOGITRANS Package Tracker")
+        print("****** EXPEDEX PACKAGE TRACKER ******")
         print("*************************************")
         # Print the time the truck returns to the hub
         print(f"Total miles driven (including drive back to hub): {total_miles:.2f}")
